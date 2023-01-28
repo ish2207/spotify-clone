@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+            <li>Your Favourites</li>
+        </ul>
+    </nav> 
+
+    <div class="container">
+        <div class="songList">
+            <h1>Best of Memorable Songs</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Tere Bin</span>
+                    <span class="songListPlay"><span class="timeStamp">4:30 <i class="songItemPlay fa-regular fa-circle-play" id="0"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="2">
+                    <span class="songName">Rozaana</span>
+                    <span class="songListPlay"><span class="timeStamp">4:30 <i class="songItemPlay fa-regular fa-circle-play" id="1"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="3">
+                    <span class="songName">Tere Hawaale</span>
+                    <span class="songListPlay"><span class="timeStamp">4:30 <i class="songItemPlay fa-regular fa-circle-play" id="2"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="4">
+                    <span class="songName">Until I Found You</span>
+                    <span class="songListPlay"><span class="timeStamp">4:30 <i class="songItemPlay fa-regular fa-circle-play" id="3"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="5">
+                    <span class="songName">Tum Ho Toh</span>
+                    <span class="songListPlay"><span class="timeStamp">4:30 <i class="songItemPlay fa-regular fa-circle-play" id="4"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="6">
+                    <span class="songName">Tum Mile</span>
+                    <span class="songListPlay"><span class="timeStamp">4:30 <i class="songItemPlay fa-regular fa-circle-play" id="5"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="7">
+                    <span class="songName">Perfect</span>
+                    <span class="songListPlay"><span class="timeStamp">4:30 <i class="songItemPlay fa-regular fa-circle-play" id="6"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fa-solid fa-2x fa-backward-step" id="previous"></i>
+            <i class="fa-regular fa-2x fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-2x fa-forward-step" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="42px" alt="" id="gif"> <span id="masterSongName"> Tere Bin - Sonu Nigam </span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/fa0003ffa1.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
